@@ -1,0 +1,47 @@
+#card-section {
+  background: #ccc url("../../../../assets/img/banners/header-logo.jpg") no-repeat fixed center center/cover;
+  position: relative;
+/*  clip-path: polygon(0 0, 100% calc(0% + 5vw), 100% 100%, 0 100%);*/
+  -webkit-clip-path: polygon(0 0, 100% 2%, 100% 100%, 0 100%);
+  clip-path: polygon(0 0, 100% 2%, 100% 100%, 0 100%);
+}
+
+// Extra small devices
+@media (max-width: 575.98px)  {
+
+  #card-section {
+    -webkit-clip-path: polygon(0 0, 100% 1%, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 1%, 100% 100%, 0 100%);
+  }
+
+}
+
+// Small devices
+@media (min-width: 576px) and (max-width: 768px) {
+
+  #card-section {
+    -webkit-clip-path: polygon(0 0, 100% 1%, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 1%, 100% 100%, 0 100%);
+  }
+
+}
+
+// Medium devices
+@media (min-width: 769px) and (max-width: 992px) {
+
+  #card-section {
+    -webkit-clip-path: polygon(0 0, 100% 1%, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 1%, 100% 100%, 0 100%);
+  }
+
+}
+
+// Large devices
+@media (min-width: 993px) and (max-width: 1200px) {
+
+  #card-section {
+    -webkit-clip-path: polygon(0 0, 100% 1%, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 1%, 100% 100%, 0 100%);
+  }
+
+}

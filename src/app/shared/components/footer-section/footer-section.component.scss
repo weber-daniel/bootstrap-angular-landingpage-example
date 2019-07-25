@@ -1,0 +1,54 @@
+#footer-section {
+  height: 205px;
+  margin-top: -5vw;
+  padding-top: 5rem;
+  background-color: rgb(255, 165, 0);
+  position: relative;
+/*  clip-path: polygon(0   calc(0% + 5vw), 0 100%, 100% 100%, 100% 0);*/
+  -webkit-clip-path: polygon(0 9%, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 9%, 100% 0, 100% 100%, 0 100%);
+
+  p {
+    color: black;
+  }
+}
+
+/* ##################################################################### */
+/* ######################### Responsive Design ######################### */
+/* ##################################################################### */
+
+// Extra small devices
+@media (max-width: 575.98px)  {
+
+  #footer-section {
+
+    p {
+      color: black;
+      font-size: 1rem;
+    }
+  }
+
+}
+
+// Small devices
+@media (min-width: 576px) and (max-width: 768px) {
+
+  #footer-section {
+
+    p {
+      color: black;
+      font-size: 1.1rem;
+    }
+  }
+
+}
+
+// Extra Large devices
+@media (min-width: 1201px) {
+
+
+
+}
+
+
+

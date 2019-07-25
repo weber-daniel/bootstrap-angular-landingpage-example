@@ -1,0 +1,86 @@
+#banner-section {
+  min-height: 705px;
+  max-height: 705px;
+  background: black url("../../../../assets/img/banners/lang-bg.jpg") no-repeat fixed center center/cover;
+  position: relative;
+/*  clip-path: polygon(0 0, 100% calc(0% + 5vw), 100% 100%, 0 100%);*/
+  /*    margin-bottom: -5vw;*/
+  -webkit-clip-path: polygon(0 0, 100% 5%, 100% 100%, 0 100%);
+  clip-path: polygon(0 0, 100% 5%, 100% 100%, 0 100%);
+
+  .content {
+    background: rgba(0, 0, 0, 0.4);
+    height: 705px;
+    width: 100%;
+
+    p {
+      font-size: 5rem;
+    }
+  }
+}
+
+/* ##################################################################### */
+/* ######################### Responsive Design ######################### */
+/* ##################################################################### */
+
+// Extra small devices
+@media (max-width: 575.98px)  {
+
+  #banner-section {
+    margin-top: -5rem;
+
+     p {
+        font-size: 2.5rem !important;
+        white-space: nowrap;
+      }
+    }
+
+  }
+
+// Small devices
+@media (min-width: 576px) and (max-width: 768px) {
+
+  #banner-section {
+
+    p {
+      font-size: 3.5rem !important;
+      white-space: nowrap;
+    }
+  }
+
+}
+
+// Medium devices
+@media (min-width: 769px) and (max-width: 992px) {
+
+  #banner-section {
+
+    p {
+      font-size: 4rem !important;
+      white-space: nowrap;
+    }
+  }
+
+}
+
+// Large devices
+@media (min-width: 993px) and (max-width: 1200px) {
+
+  #banner-section {
+
+    p {
+      font-size: 4.5rem !important;
+      white-space: nowrap;
+    }
+  }
+
+}
+
+// Extra Large devices
+@media (min-width: 1201px) {
+
+
+
+}
+
+

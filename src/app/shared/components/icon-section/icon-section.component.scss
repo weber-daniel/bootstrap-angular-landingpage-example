@@ -1,0 +1,175 @@
+#icon-section {
+  padding-top: 5vw;
+  min-height: 605px;
+  max-height: 605px;
+  background-color: whitesmoke;
+  position: relative;
+  margin-top: -5rem;
+  z-index: 0;
+/*  clip-path: polygon(0 calc(0% + 5vw), 100% 0, 100% 100%, 0 100%);*/
+  -webkit-clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 100%);
+
+  h2 {
+    border-bottom: 1px solid orange;
+    color: black;
+    padding: 5px;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .lead {
+    margin-top: 20px;
+  }
+
+  fa-icon {
+    font-size: 7rem;
+  }
+}
+
+/* ##################################################################### */
+/* ######################### Responsive Design ######################### */
+/* ##################################################################### */
+
+// Extra small devices
+@media (max-width: 575.98px)  {
+
+  #icon-section {
+    min-height: 1105px !important;
+    max-height: 1105px !important;
+    z-index: 10 !important;
+
+    h2 {
+      padding: 2px;
+      width: 50%;
+      text-align: center;
+      margin: 0 auto;
+      font-size: 1.75rem;
+      white-space: nowrap;
+    }
+
+    .lead {
+      margin-top: 20px;
+      font-size: 1rem;
+      text-align: center !important;
+      padding: 1rem;
+    }
+
+    fa-icon {
+      font-size: 2.5rem;
+    }
+  }
+
+}
+
+// Small devices
+@media (min-width: 576px) and (max-width: 768px) {
+
+  #icon-section {
+    min-height: 950px !important;
+    max-height: 950px !important;
+    z-index: 1 !important;
+
+    h2 {
+      border-bottom: 1px solid orange;
+      color: black;
+      padding: 2px;
+      width: 50%;
+      text-align: center;
+      margin: 0 auto;
+      font-size: 2rem;
+      white-space: nowrap;
+    }
+
+    .lead {
+      margin-top: 20px;
+      font-size: 1.1rem;
+      text-align: center !important;
+      padding: 1rem;
+    }
+
+    fa-icon {
+      font-size: 2.5rem;
+    }
+  }
+
+}
+
+// Medium devices
+@media (min-width: 769px) and (max-width: 992px) {
+
+  #icon-section {
+    min-height: 950px !important;
+    max-height: 950px !important;
+    z-index: 1 !important;
+
+    h2 {
+      border-bottom: 1px solid orange;
+      color: black;
+      padding: 2px;
+      width: 50%;
+      text-align: center;
+      margin: 0 auto;
+      font-size: 2.5rem;
+      white-space: nowrap;
+    }
+
+    .lead {
+      margin-top: 20px;
+      font-size: 1.1rem;
+      text-align: center !important;
+      padding: 1rem;
+    }
+
+    fa-icon {
+      font-size: 3rem;
+    }
+  }
+
+}
+
+// Large devices
+@media (min-width: 993px) and (max-width: 1200px) {
+
+  #icon-section {
+    min-height: 755px !important;
+    max-height: 755px !important;
+
+    h2 {
+      border-bottom: 1px solid orange;
+      color: black;
+      padding: 2px;
+      width: 50%;
+      text-align: center;
+      margin: 0 auto;
+      font-size: 2.5rem;
+      white-space: nowrap;
+    }
+
+    .lead {
+      margin-top: 20px;
+      font-size: 1.1rem;
+      text-align: center !important;
+      padding: 1rem;
+    }
+
+    fa-icon {
+      font-size: 3rem;
+    }
+  }
+
+}
+
+// Extra Large devices
+@media (min-width: 1201px) {
+
+  #icon-section {
+    min-height: 805px !important;
+    max-height: 805px !important;
+
+  }
+
+}
+
+

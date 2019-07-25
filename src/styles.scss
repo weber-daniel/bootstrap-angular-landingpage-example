@@ -1,0 +1,170 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+@import '~bootstrap/scss/_functions';
+@import '~bootstrap/scss/_variables';
+@import '~bootstrap/scss/mixins/_breakpoints';
+
+body {
+  font-family: 'Raleway', sans-serif;
+  word-wrap: break-word;
+  width: 100%;
+  height: 100%;
+}
+
+.slogan-title {
+  background: rgba(255, 165, 0, 1);
+  padding: 0.5rem;
+  font-weight: 500;
+  color: black;
+  margin-bottom: 0.5rem;
+}
+
+@include media-breakpoint-up(sm) {
+  #header-section {
+    color: red;
+  }
+}
+
+/* ############################################################################ */
+/* ######################### Global Responsive Design ######################### */
+/* ############################################################################ */
+
+// Extra small devices
+@media (max-width: 575.98px)  {
+
+  #info-section {
+    .container-fluid {
+      max-width: 80% !important;
+    }
+  }
+
+  #review-section {
+    .container-fluid {
+      max-width: 80% !important;
+    }
+  }
+
+}
+
+// Small devices
+@media (min-width: 576px) and (max-width: 768px) {
+
+  #info-section {
+    .container-fluid {
+      max-width: 80% !important;
+    }
+  }
+
+  #review-section {
+    .container-fluid {
+      max-width: 80% !important;
+    }
+  }
+
+}
+
+// Medium devices
+@media (min-width: 769px) and (max-width: 992px) {
+
+  #info-section {
+    .container-fluid {
+      max-width: 80% !important;
+
+      h1, p {
+        padding: 0;
+      }
+    }
+  }
+
+  #review-section {
+    .container-fluid {
+      max-width: 80% !important;
+
+      h1, p {
+        padding: 0;
+      }
+    }
+  }
+
+}
+
+// Large devices
+@media (min-width: 993px) and (max-width: 1200px) {
+
+  #info-section {
+    .container-fluid {
+      max-width: 100% !important;
+
+      h1, p {
+        padding: 0;
+      }
+    }
+  }
+
+  #review-section {
+    .container-fluid {
+      max-width: 100% !important;
+
+      h1, p {
+        padding: 0;
+      }
+    }
+  }
+
+}
+
+// Extra Large devices
+@media (min-width: 1201px) {
+
+  #info-section {
+    .container-fluid {
+      max-width: 100% !important;
+
+      h1, p {
+        padding: 0;
+      }
+    }
+
+  }
+
+  #review-section {
+    .container-fluid {
+      max-width: 100% !important;
+
+      h1, p {
+        padding: 0;
+      }
+
+    }
+  }
+
+}
+
+// Custom size
+@media (min-width: 1501px) {
+
+  #info-section {
+    .container-fluid {
+      max-width: 80% !important;
+
+      h1, p {
+        padding: 0;
+      }
+    }
+
+  }
+
+  #review-section {
+    .container-fluid {
+      max-width: 80% !important;
+
+      h1, p {
+        padding: 0;
+      }
+
+    }
+  }
+
+}

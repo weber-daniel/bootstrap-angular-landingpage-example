@@ -1,0 +1,201 @@
+#review-section {
+  min-height: 805px;
+  max-height: 805px;
+  background-color: whitesmoke;
+  padding: 20rem;
+  margin-bottom: -5vw;
+  margin-top: -5vw;
+
+  h1 {
+    border-bottom: 1px solid orange;
+    margin-bottom: 25px;
+  }
+
+  img {
+    height: 100% !important;
+    width: 100% !important;
+    border-radius: 1.5rem !important;
+    border: 1px solid orange;
+  }
+
+}
+
+/* ##################################################################### */
+/* ######################### Responsive Design ######################### */
+/* ##################################################################### */
+
+// Extra small devices
+@media (max-width: 575.98px)  {
+  #review-section {
+    min-height: 755px;
+    max-height: 755px;
+    padding: 0;
+    margin-top: 2rem;
+    margin-bottom: -2rem;
+
+    .text-intro {
+      margin: 0 auto !important;
+    }
+
+    h1 {
+      font-size: 1.75rem;
+      text-align: center !important;
+      padding: 1rem;
+    }
+
+    p, .quote-info {
+      font-size: 1rem;
+      text-align: center !important;
+      padding: 1rem;
+    }
+
+    img {
+      padding: 1rem;
+    }
+
+  }
+
+}
+
+// Small devices
+@media (min-width: 576px) and (max-width: 768px) {
+
+  #review-section {
+    min-height: 705px;
+    max-height: 705px;
+    padding: 0;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+
+    .text-intro {
+      margin: 0 auto !important;
+    }
+
+    h1 {
+      font-size: 2.25rem;
+      text-align: center !important;
+      padding: 1rem;
+    }
+
+    p, .quote-info {
+      font-size: 1.1rem;
+      text-align: center !important;
+      padding: 1rem;
+    }
+
+    img {
+      padding: 1rem;
+    }
+
+  }
+
+}
+
+// Medium devices
+@media (min-width: 769px) and (max-width: 992px) {
+
+  #review-section {
+    min-height: 855px;
+    max-height: 855px;
+    padding: 0;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+
+    .text-intro {
+      margin: 0 auto !important;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      text-align: center !important;
+      padding: 1rem;
+    }
+
+    p, .quote-info {
+      font-size: 1.1rem;
+      text-align: center !important;
+      padding: 1rem;
+    }
+
+    img {
+      padding: 1rem;
+      max-width: 650px !important;
+    }
+
+  }
+
+}
+
+// Large devices
+@media (min-width: 993px) and (max-width: 1200px) {
+
+  #review-section {
+    min-height: 655px;
+    max-height: 655px;
+    padding: 0;
+/*    margin-top: 1rem;*/
+    margin-bottom: -5rem;
+    text-align: center;
+
+    .text-intro {
+      margin: 0 auto !important;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      text-align: center !important;
+      padding: 1rem;
+    }
+
+    p, .quote-info {
+      font-size: 1.1rem;
+      text-align: center !important;
+      padding: 1rem;
+    }
+
+    img {
+      padding: 1rem;
+      max-width: 650px !important;
+    }
+
+  }
+
+}
+
+// Extra Large devices
+@media (min-width: 1201px) {
+
+  #review-section {
+/*    min-height: 655px;
+    max-height: 655px;*/
+    padding: 0;
+    margin-top: -10rem;
+    margin-bottom: -5rem;
+    text-align: center;
+
+    .text-intro {
+      margin: 0 auto !important;
+    }
+
+    h1 {
+/*      font-size: 2.5rem;*/
+      text-align: center !important;
+      padding: 1rem;
+    }
+
+    p, .quote-info {
+/*      font-size: 1.1rem;*/
+      text-align: center !important;
+      padding: 1rem;
+    }
+
+    img {
+      padding: 1rem;
+      max-width: 650px !important;
+    }
+
+  }
+
+}
+
